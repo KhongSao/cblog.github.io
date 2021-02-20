@@ -51,21 +51,5 @@ Let&amp;rsquo;s say then you are in the final 1% or final 300days worth of time 
 I do because said member of staff was then at a loss for several minutes, for me it was an epoch, as to why there was sound but no video.</description>
     </item>
     
-    <item>
-      <title>Theme Demo</title>
-      <link>https://khongsao.github.io/cblog.github.io/posts/theme-demo/</link>
-      <pubDate>Fri, 03 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://khongsao.github.io/cblog.github.io/posts/theme-demo/</guid>
-      <description>Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading  This is bold text
-This is bold text
-This is italic text
-This is italic text
-Deleted text
-This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
-$$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
-   Heading Another heading     text text   text text   text text     Block quotes are written like so.</description>
-    </item>
-    
   </channel>
 </rss>
