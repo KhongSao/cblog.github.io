@@ -166,7 +166,56 @@ B --&gt; C{Let me think}
 C --&gt;|One| D[Laptop]
 C --&gt;|Two| E[iPhone]
 C --&gt;|Three| F[fa:fa-car Car]''
+
+option = {
+    xAxis: {
+        type: 'category',
+        data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+    },
+    yAxis: {
+        type: 'value'
+    },
+    series: [{
+        data: [820, 932, 901, 934, 1290, 1330, 1320],
+        type: 'line',
+        smooth: true
+    }]
+};
 </code></pre>
+<p>&lsquo;option = {
+xAxis: {
+type: &lsquo;category&rsquo;,
+data: [&lsquo;Mon&rsquo;, &lsquo;Tue&rsquo;, &lsquo;Wed&rsquo;, &lsquo;Thu&rsquo;, &lsquo;Fri&rsquo;, &lsquo;Sat&rsquo;, &lsquo;Sun&rsquo;]
+},
+yAxis: {
+type: &lsquo;value&rsquo;
+},
+series: [{
+data: [820, 932, 901, 934, 1290, 1330, 1320],
+type: &lsquo;line&rsquo;,
+smooth: true
+}]
+};&rsquo;</p>
+<p>''</p>
+<p>import * as echarts from &lsquo;echarts&rsquo;;</p>
+<p>var chartDom = document.getElementById(&lsquo;main&rsquo;);
+var myChart = echarts.init(chartDom);
+var option;</p>
+<p>option = {
+xAxis: {
+type: &lsquo;category&rsquo;,
+data: [&lsquo;Mon&rsquo;, &lsquo;Tue&rsquo;, &lsquo;Wed&rsquo;, &lsquo;Thu&rsquo;, &lsquo;Fri&rsquo;, &lsquo;Sat&rsquo;, &lsquo;Sun&rsquo;]
+},
+yAxis: {
+type: &lsquo;value&rsquo;
+},
+series: [{
+data: [820, 932, 901, 934, 1290, 1330, 1320],
+type: &lsquo;line&rsquo;,
+smooth: true
+}]
+};</p>
+<p>option &amp;&amp; myChart.setOption(option);</p>
 
   </article>
 
